@@ -2,7 +2,7 @@
 
 ## Install
 
-    npm install react-touchable
+    npm install react-touchable@https://github.com/yulinho/react-touchable
 
 ## Use
 
@@ -25,7 +25,7 @@
 Touchable takes a single prop `onTap` and it is required.
 onTap fires once a person taps on your element, it is called back with the event.
 
-    onTap: React.PropTypes.func.isRequired
+    onTap: React.PropTypes.func.isRequired // not more
 
 Touchable works both on mobile web as well as desktop web.
 
